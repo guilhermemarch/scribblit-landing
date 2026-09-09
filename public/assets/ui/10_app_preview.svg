@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600"><defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EAF6FF"/><stop offset="1" stop-color="#B8DCFF"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E1FFE6"/><stop offset="1" stop-color="#A8F4B0"/></linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A74FF"/><stop offset="1" stop-color="#1DB9F4"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0A2B4D" flood-opacity="0.12"/></filter></defs>
+<rect width="2400" height="1600" rx="70" fill="#EAF6FF"/>
+<g filter="url(#shadow)"><rect x="110" y="110" width="2180" height="1380" rx="55" fill="#FFFFFF"/></g>
+<rect x="110" y="110" width="2180" height="190" rx="55" fill="#D8EDFF"/><rect x="110" y="245" width="2180" height="55" fill="#D8EDFF"/>
+<g fill="#FFFFFF"><circle cx="280" cy="205" r="45"/><circle cx="395" cy="205" r="45"/><circle cx="510" cy="205" r="45"/><circle cx="625" cy="205" r="45"/></g>
+<rect x="195" y="150" width="240" height="110" rx="55" fill="#FFFFFF"/><text x="245" y="220" font-size="38" fill="#1688F8" font-family="Inter,Arial,sans-serif">Style 01</text>
+<g fill="#1688F8"><circle cx="470" cy="205" r="14"/><circle cx="585" cy="205" r="14"/><circle cx="700" cy="205" r="14"/><circle cx="815" cy="205" r="14"/></g>
+<rect x="250" y="430" width="1900" height="690" rx="35" fill="#FFFFFF"/>
+<text x="310" y="520" font-size="42" fill="#31425A" font-family="Inter,Arial,sans-serif">Ideas grow when they are written down. Capture your thoughts,</text>
+<text x="310" y="585" font-size="42" fill="#31425A" font-family="Inter,Arial,sans-serif">organize them clearly, and access them anytime, anywhere.</text>
+<rect x="300" y="685" width="1560" height="70" rx="18" fill="#DFF0FF"/><text x="330" y="735" font-size="36" fill="#315B88" font-family="Inter,Arial,sans-serif">Your notes stay in sync across all your devices.</text>
+<text x="310" y="850" font-size="42" fill="#31425A" font-family="Inter,Arial,sans-serif">With powerful search, flexible organization and intelligent tools,</text>
+<text x="310" y="915" font-size="42" fill="#31425A" font-family="Inter,Arial,sans-serif">Scribblit helps you think clearer and work smarter.</text>
+<g filter="url(#shadow)"><rect x="1540" y="1260" width="310" height="105" rx="53" fill="#E8F4FF"/><rect x="1880" y="1260" width="260" height="105" rx="53" fill="url(#btn)"/></g>
+<text x="1610" y="1328" font-size="38" fill="#1688F8" font-family="Inter,Arial,sans-serif">AI Summary</text><text x="1965" y="1328" font-size="40" fill="#FFFFFF" font-family="Inter,Arial,sans-serif">Save</text>
+</svg>

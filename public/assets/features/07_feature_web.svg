@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200"><defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EAF6FF"/><stop offset="1" stop-color="#B8DCFF"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E1FFE6"/><stop offset="1" stop-color="#A8F4B0"/></linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A74FF"/><stop offset="1" stop-color="#1DB9F4"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0A2B4D" flood-opacity="0.12"/></filter></defs>
+<rect width="1600" height="1200" rx="84" fill="url(#green)"/>
+<g fill="none" stroke="#47D465" stroke-width="8" opacity=".7"><circle cx="800" cy="600" r="380"/><circle cx="800" cy="600" r="265"/><circle cx="800" cy="600" r="150"/></g>
+<circle cx="800" cy="600" r="150" fill="#FFFFFF" filter="url(#shadow)"/>
+<g stroke="#21B64A" stroke-width="13" fill="none"><circle cx="800" cy="600" r="70"/><ellipse cx="800" cy="600" rx="35" ry="70"/><path d="M730 600 H870 M742 563 H858 M742 637 H858"/></g>
+<g fill="#FFFFFF"><circle cx="465" cy="740" r="45"/><circle cx="1115" cy="390" r="45"/><circle cx="1165" cy="770" r="45"/></g>
+<g filter="url(#shadow)"><rect x="250" y="250" width="350" height="120" rx="60" fill="#FFFFFF"/><rect x="1020" y="730" width="390" height="120" rx="60" fill="#FFFFFF"/></g>
+<text x="425" y="310" text-anchor="middle" dominant-baseline="central" font-size="48" font-weight="600" fill="#0A8A29" font-family="Arial,sans-serif">Responsive</text>
+<text x="1215" y="790" text-anchor="middle" dominant-baseline="central" font-size="42" font-weight="600" fill="#0A8A29" font-family="Arial,sans-serif">Under 3 seconds</text>
+</svg>

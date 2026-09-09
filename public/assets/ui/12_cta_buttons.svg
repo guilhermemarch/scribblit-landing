@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560"><defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EAF6FF"/><stop offset="1" stop-color="#B8DCFF"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E1FFE6"/><stop offset="1" stop-color="#A8F4B0"/></linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A74FF"/><stop offset="1" stop-color="#1DB9F4"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0A2B4D" flood-opacity="0.12"/></filter></defs>
+<rect width="1600" height="560" rx="54" fill="#FFFFFF"/>
+<rect x="100" y="90" width="610" height="125" rx="63" fill="url(#btn)"/><text x="230" y="168" font-size="44" fill="#FFFFFF" font-family="Inter,Arial,sans-serif">Get Started Free →</text>
+<rect x="810" y="90" width="610" height="125" rx="63" fill="#FFFFFF" stroke="#1688F8" stroke-width="5"/><text x="1010" y="168" font-size="44" fill="#1688F8" font-family="Inter,Arial,sans-serif">Learn More →</text>
+<rect x="100" y="300" width="610" height="125" rx="63" fill="#FFFFFF" stroke="#D7E6F3" stroke-width="5"/><circle cx="185" cy="363" r="38" fill="#1688F8"/><path d="M174 340 l33 23 l-33 23z" fill="#FFF"/><text x="250" y="377" font-size="44" fill="#0D3761" font-family="Inter,Arial,sans-serif">Watch Demo</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200"><defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EAF6FF"/><stop offset="1" stop-color="#B8DCFF"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E1FFE6"/><stop offset="1" stop-color="#A8F4B0"/></linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A74FF"/><stop offset="1" stop-color="#1DB9F4"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0A2B4D" flood-opacity="0.12"/></filter></defs>
+<rect width="1600" height="1200" rx="84" fill="url(#green)"/>
+<g opacity=".55" stroke="#59D96D" stroke-width="6" fill="none"><circle cx="800" cy="600" r="360"/><circle cx="800" cy="600" r="250"/></g>
+<g filter="url(#shadow)"><rect x="220" y="410" width="1160" height="250" rx="125" fill="#FFFFFF"/></g>
+<g stroke="#18A83D" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<path d="M330 535 L410 470 L490 535 V610 H445 V555 H375 V610 H330 Z"/><path d="M575 475 H705 V610 H575 Z M600 505 H680 M600 545 H670 M600 585 H655"/><path d="M805 485 L930 610 M930 485 L805 610"/><rect x="1010" y="500" width="230" height="100" rx="28"/><path d="M1240 535 L1290 510 V590 L1240 565Z"/>
+</g>
+<g filter="url(#shadow)"><rect x="930" y="250" width="330" height="115" rx="58" fill="#FFFFFF"/><rect x="360" y="790" width="360" height="115" rx="58" fill="#FFFFFF"/></g>
+<text x="1095" y="307.5" text-anchor="middle" dominant-baseline="central" font-size="44" font-weight="600" fill="#0A8A29" font-family="Arial,sans-serif">Keep it simple</text>
+<text x="540" y="847.5" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="600" fill="#0A8A29" font-family="Arial,sans-serif">Add a clear CTA</text>
+<path d="M910 330 C760 260 510 280 430 410" fill="none" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/><path d="M414 394 l-26 52 l58 -13" fill="none" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M750 830 C900 845 1010 760 1080 670" fill="none" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/><path d="M1060 676 l55 -8 l-18 52" fill="none" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

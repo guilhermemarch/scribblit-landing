@@ -1,0 +1,57 @@
+{
+  "backgrounds": [
+    {
+      "file": "backgrounds/01_hero_background_3840x2160.jpg",
+      "usage": "Main hero background",
+      "css": "background-position:center bottom; background-size:cover;"
+    },
+    {
+      "file": "backgrounds/02_cta_mountain_banner_3840x1200.jpg",
+      "usage": "CTA mountain banner"
+    },
+    {
+      "file": "backgrounds/03_section_background_3840x1200.jpg",
+      "usage": "Soft blue/sky section background"
+    },
+    {
+      "file": "backgrounds/04_footer_background_3840x1200.jpg",
+      "usage": "Footer background"
+    },
+    {
+      "file": "backgrounds/05_pattern_background.svg",
+      "usage": "Abstract section pattern"
+    },
+    {
+      "file": "backgrounds/08_section_divider_3840x420.png",
+      "usage": "Mountain divider, transparent fade"
+    }
+  ],
+  "features": [
+    "features/04_feature_android.svg",
+    "features/05_feature_ios.svg",
+    "features/06_feature_windows.svg",
+    "features/07_feature_web.svg"
+  ],
+  "ui": [
+    "ui/10_app_preview.svg",
+    "ui/11_pricing_cards.svg",
+    "ui/12_cta_buttons.svg",
+    "ui/15_nav_preview.svg",
+    "ui/17_footer_links_preview.svg",
+    "ui/18_trust_badges.svg"
+  ],
+  "branding": [
+    "branding/logo-mark.svg",
+    "branding/logo-primary.svg",
+    "branding/logo-white.svg",
+    "branding/badge-app-store.svg",
+    "branding/badge-google-play.svg",
+    "branding/badge-microsoft-store.svg"
+  ],
+  "decorative": [
+    "decorative/wave_divider.svg",
+    "decorative/shape_blob.svg",
+    "decorative/gradient_overlay.svg",
+    "decorative/noise_texture.png"
+  ]
+}

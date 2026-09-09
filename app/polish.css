@@ -1,0 +1,60 @@
+:root { --ease-out: cubic-bezier(.22, 1, .36, 1); }
+header { position: fixed; transition: background .35s, box-shadow .35s, height .35s, padding .35s; border-radius: 0 0 24px 24px; }
+header.scrolled { height: 72px; padding-inline: 24px; background: #fffffff5; box-shadow: 0 8px 32px #173d7010; }
+header nav a { position: relative; padding-block: 10px; }
+header nav a::after { content: ''; position: absolute; bottom: 3px; left: 0; width: 100%; height: 2px; background: var(--primary); transform: scaleX(0); transform-origin: left; transition: transform .3s var(--ease-out); }
+header nav a:hover::after { transform: scaleX(1); }
+.hero-content > * { animation: arrive .85s var(--ease-out) both; }
+.hero-content > :nth-child(2) { animation-delay: .08s; }
+.hero-content > :nth-child(3) { animation-delay: .16s; }
+.hero-content > :nth-child(4) { animation-delay: .24s; }
+.hero-content > :nth-child(5) { animation-delay: .32s; }
+.hero h1 { text-wrap: balance; }
+.section-heading h2 { text-wrap: balance; }
+.section-heading p { text-wrap: pretty; }
+.reveal { opacity: 0; transform: translateY(22px); transition: opacity .8s var(--ease-out), transform .8s var(--ease-out); }
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+.platform:nth-child(even), .plan:nth-child(2) { transition-delay: .09s; }
+.button { transition: transform .25s var(--ease-out), background .25s, box-shadow .25s; }
+.button > span, .platform-copy a > span { display: inline-block; transition: transform .3s var(--ease-out); }
+.button:hover > span, .platform-copy a:hover > span { transform: translate(3px, -2px); }
+.button:hover { box-shadow: 0 8px 20px #087bf220; }
+.tool-pill { padding: 9px 14px; }
+.tool-pill > span:not(.pill-word) { display: grid; place-items: center; width: 27px; height: 27px; border-radius: 8px; }
+.tool-pill > span:first-child { background: var(--primary-light); }
+.platform-image { box-shadow: 0 2px 4px #21457303; }
+.platform-image img { transition: transform .7s var(--ease-out); }
+.platform-copy { padding-top: 25px; }
+.benefit-icon { transition: background .3s, transform .3s; }
+.benefit:hover .benefit-icon { background: #dbefff; transform: translateY(-3px); }
+.plan { box-shadow: 0 8px 30px #1c578008; }
+.plan.is-visible:hover { transform: translateY(-4px); box-shadow: 0 16px 40px #1c578015; transition-duration: .3s; transition-delay: 0s; }
+.plan-details { border: 1px solid #ffffff60; }
+.footer-col a { width: fit-content; transition: color .2s, transform .2s; }
+.footer-col a:hover { transform: translateX(3px); }
+footer { background-image: url('/assets/backgrounds/04_footer_background_3840x1200.webp'); background-position: center bottom; }
+footer::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(110deg, rgba(7, 43, 76, .82), rgba(20, 101, 153, .46)); }
+.footer-brand p { color: #eaf5fb; font-size: 14px; }
+.footer-brand > span { color: #d8ebf5; font-size: 12px; }
+.footer-col h3 { color: #fff; font-size: 14px; font-weight: 600; }
+.footer-col a { color: #e2f0f7; font-size: 13px; }
+.footer-bottom { color: #d9eaf3; font-size: 11px; border-top-color: #ffffff3d; }
+.footer-bottom > a { color: #fff; font-weight: 600; }
+.socials a { padding: 8px; margin: -8px 0; transition: transform .25s; }
+.socials a:hover { transform: translateY(-3px); }
+.hero-bottom a { transition: background .25s, transform .25s; }
+.hero-bottom a:hover { background: #ffffff25; transform: translateY(3px); }
+.dialog { animation: arrive .3s var(--ease-out) both; }
+@keyframes arrive { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 767px) {
+  header.scrolled { padding-inline: 14px; height: 66px; }
+  header.scrolled .logo { width: 105px; }
+  .section-heading h2 { letter-spacing: -.045em; }
+  .platform:nth-child(even), .plan:nth-child(2) { transition-delay: 0s; }
+  header nav.open { animation: arrive .25s var(--ease-out); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; }
+  .hero-content > *, .dialog { animation: none; }
+  .button:hover, .plan.is-visible:hover, .benefit:hover .benefit-icon, .platform:hover .platform-image img { transform: none; }
+}
